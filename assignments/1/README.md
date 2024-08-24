@@ -314,19 +314,19 @@ Now there are 2 ways to minimise this loss:
     - For L1 regularisation
         
         $$
-        \nabla_\beta J(\beta) = \frac{1}{m} X^\top (X\beta - y) + \lambda \cdot sign(\beta) 
+        \nabla_\beta J(\beta) = \frac{1}{m} X^{\top} (X\beta - y) + \lambda \cdot sign(\beta) 
         $$
         
     - For L2 regularisation
     
     $$
-    \nabla_\beta J(\beta) = \frac{1}{m} X^\top (X\beta - y) + \lambda \beta 
+    \nabla_\beta J(\beta) = \frac{1}{m} X^{\top} (X\beta - y) + \lambda \beta 
     $$
     
     The update at every epoch is done by -
     
     $$
-    \beta = \beta− lr \nabla_\beta J(\beta)
+    \beta = \beta − lr \nabla_\beta J(\beta)
     $$
     
 2. Using closed form
@@ -334,7 +334,7 @@ Now there are 2 ways to minimise this loss:
     Note - closed form doesn’t support with L1 regularisation as there is a mathematical constraint on β when doing the differentiation.
     
     $$
-    \frac{\partial J(\beta)}{\partial \beta} = \frac{1}{m} X^\top (X\beta - y) + \frac{\lambda}{m} \beta = 0
+    \frac{\partial J(\beta)}{\partial \beta} = \frac{1}{m} X^{\top} (X\beta - y) + \frac{\lambda}{m} \beta = 0
     $$
     
 
