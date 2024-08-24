@@ -1,0 +1,8 @@
+*.DS_Store
+.ipynb_checkpoints
+__pycache__/
+assignments/1/figures/gif_figures/1
+assignments/1/figures/gif_figures/3
+assignments/1/figures/gif_figures/5
+assignments/1/figures/gif_figures/13
+assignments/1/figures/gif_figures/15
