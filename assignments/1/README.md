@@ -314,7 +314,7 @@ Now there are 2 ways to minimise this loss:
     - For L1 regularisation
         
         $$
-        \nabla_\beta J(\beta) = \frac{1}{m} X^{\top} (X\beta - y) + \lambda \cdot sign(\beta) 
+        \nabla_\beta J(\beta) = \frac{1}{m} X^{T} (X\beta - y) + \lambda \cdot sign(\beta) 
         $$
         
     - For L2 regularisation
@@ -326,7 +326,7 @@ Now there are 2 ways to minimise this loss:
     The update at every epoch is done by -
     
     $$
-    \beta = \beta − lr \nabla_\beta J(\beta)
+    \beta = \beta - \text{lr} \cdot \nabla_\beta J(\beta)
     $$
     
 2. Using closed form
