@@ -1,0 +1,15 @@
+Linear Regression results on train set
+Mean Squared Error: 0.3669530202202325
+Standard Deviation: 0.6057664733378966
+Variance: 0.3669530202202325
+
+Linear Regression results on test set
+Mean Squared Error: 0.3448313636472773
+Standard Deviation: 0.5778674690615095
+Variance: 0.33393081179955475
+
+Linear Regression results on val set
+Mean Squared Error: 0.22669737674873267
+Standard Deviation: 0.47488813079064063
+Variance: 0.22551873676582862
+

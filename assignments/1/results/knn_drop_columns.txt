@@ -1,0 +1,34 @@
+Dropping Random Columns
+Number of columns: 5
+Accuracy: 0.08667426967277832
+loudness, valence, liveness, explicit, mode, 
+Number of columns: 6
+Accuracy: 0.08342837090972892
+mode, key, liveness, explicit, danceability, instrumentalness, 
+Number of columns: 7
+Accuracy: 0.1548381436968155
+acousticness, valence, liveness, energy, loudness, instrumentalness, duration_ms, 
+Number of columns: 8
+Accuracy: 0.15264496885691728
+liveness, explicit, loudness, tempo, duration_ms, instrumentalness, speechiness, valence, 
+Number of columns: 9
+Accuracy: 0.21773839810509693
+acousticness, mode, valence, danceability, time_signature, energy, loudness, popularity, explicit, 
+Number of columns: 10
+Accuracy: 0.23107290113167822
+loudness, duration_ms, key, time_signature, valence, energy, popularity, acousticness, instrumentalness, danceability, 
+Number of columns: 11
+Accuracy: 0.2339678919203439
+liveness, loudness, speechiness, tempo, time_signature, popularity, acousticness, mode, energy, instrumentalness, duration_ms, 
+Number of columns: 12
+Accuracy: 0.22379156066321607
+danceability, time_signature, key, valence, instrumentalness, mode, explicit, liveness, popularity, duration_ms, loudness, acousticness, 
+Number of columns: 13
+Accuracy: 0.1809807877884025
+key, speechiness, danceability, energy, valence, tempo, liveness, acousticness, time_signature, explicit, mode, duration_ms, instrumentalness, 
+Number of columns: 14
+Accuracy: 0.2373015176769892
+explicit, tempo, acousticness, time_signature, key, popularity, instrumentalness, loudness, danceability, mode, energy, liveness, speechiness, duration_ms, 
+Number of columns: 15
+Accuracy: 0.24703921396613737
+loudness, explicit, time_signature, duration_ms, energy, tempo, valence, speechiness, key, liveness, mode, instrumentalness, popularity, acousticness, danceability, 
