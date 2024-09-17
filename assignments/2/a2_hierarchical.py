@@ -11,6 +11,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import scipy.cluster.hierarchy as hc
 
+from models.pca.pca import PCA
 
 class HierarchicalClustering:
 
@@ -46,7 +47,7 @@ class HierarchicalClustering:
 
     def hierarchical_clusters():
         
-        kbest1 = 3
+        kbest1 = 6
         kbest2 = 3
 
         path_to_word_embeddings = "../../data/processed/word_embeddings/word_embeddings.csv"
@@ -57,6 +58,8 @@ class HierarchicalClustering:
         linkage = 'ward'
         dist = 'euclidean'
         Z = hc.linkage(X, method=linkage, metric=dist)
+        print("linakge matrix")
+        print(Z.shape)
         plt.figure(figsize=(10, 7))
         dendrogram = hc.dendrogram(Z, labels=words)
         plt.title(f"{linkage.capitalize()} linkage\n{dist.capitalize()} distance")
@@ -68,8 +71,49 @@ class HierarchicalClustering:
         clusters1 = hc.fcluster(Z, kbest1, criterion='maxclust')
         clusters2 = hc.fcluster(Z, kbest2, criterion='maxclust')
 
-        print(f"Clusters for k={kbest1}: {clusters1}")
-        print(f"Clusters for k={kbest2}: {clusters2}")
+        for i in range(kbest1):
+            print(f"\nCluster {i+1}:")
+            words_in_cluster = words[clusters1==i+1]
+            for j,word in enumerate(words_in_cluster):
+                if j!=len(words_in_cluster)-1:
+                    print(word, end=", ")
+                else:
+                    print(word)
+        for i in range(kbest2):
+            print(f"\nCluster {i+1}:")
+            words_in_cluster = words[clusters2==i+1]
+            for j,word in enumerate(words_in_cluster):
+                if j!=len(words_in_cluster)-1:
+                    print(word, end=", ")
+                else:
+                    print(word)
+
+        #plot the clusters on 2D
+
+        pca = PCA(n_components=2)
+        pca.fit(X)
+        X_pca = pca.transform(X)
+
+        colours = {0: 'r', 1: 'g', 2: 'b', 3: 'c', 4: 'm', 5: 'y'}
+        fig, ax = plt.subplots()
+        for i, x in enumerate(X_pca):
+            plt.scatter(x[0], x[1], c=colours[clusters1[i]-1])
+        plt.title(f"{kbest1}-clusters using Hierarchical Clustering")
+        plt.xlabel("Principal Component 1")
+        plt.ylabel("Principal Component 2")
+        plt.savefig("figures/hierarchical_clustering_kbest1.png")
+
+        fig, ax = plt.subplots()
+        for i, x in enumerate(X_pca):
+            plt.scatter(x[0], x[1], c=colours[clusters2[i]-1])
+        plt.title(f"{kbest2}-clusters using Hierarchical Clustering")
+        plt.xlabel("Principal Component 1")
+        plt.ylabel("Principal Component 2")
+        plt.savefig("figures/hierarchical_clustering_kbest2.png")
+
+
+
+
                 
 
 

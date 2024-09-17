@@ -8,6 +8,10 @@ class KMeans:
     def __init__(self, k=3, max_iters=300):
         self.n_clusters = k
         self.max_iters = max_iters
+        self.X = None
+        self.n_samples = None
+        self.n_features = None
+        self.centroids = None
 
     def fit(self, X):
         self.X = X
@@ -48,4 +52,7 @@ class KMeans:
             cluster_points = self.X[self.cluster_labels == cluster]
             cost += np.sum((cluster_points - self.centroids[cluster])**2)
         return cost
+    
+    def get_centroids(self):
+        return self.centroids
     

@@ -42,16 +42,31 @@ from a2_pca_clustering import PCAKMeansTasks
 # PCAKMeansTasks.gmm_k_gmm_3_reduced()
 
 
+# Task 7
+from a2_cluster_analysis import ClusterAnalysisTasks
+
+cluster_analysis = ClusterAnalysisTasks()
+
+# cluster_analysis.analysis_kmeans1()
+# cluster_analysis.analysis_kmeans3()
+
+# cluster_analysis.visual_analysis_k2()
+
+# cluster_analysis.analysis_gmm3()
+
+
 # Task 8
 from a2_hierarchical import HierarchicalClustering
 
 # HierarchicalClustering.hierarchical_clustering()
-HierarchicalClustering.hierarchical_clusters()
+# HierarchicalClustering.hierarchical_clusters()
 
 
 # Task 9
 from a2_pca_knn import PCAKNNTasks
 
+# PCAKNNTasks.get_spotify_numerical_only()
 # PCAKNNTasks.scree_plot_spotify()
 # PCAKNNTasks.pca_knn_spotify()
 # PCAKNNTasks.pca_knn_spotify_sklearn()
+PCAKNNTasks.plot_times()

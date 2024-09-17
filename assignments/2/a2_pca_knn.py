@@ -20,10 +20,21 @@ class PCAKNNTasks:
 
     def __init__(self):
         pass
+        
+    def get_spotify_numerical_only():
+        #this is without normalisation
+        path_to_spotify = "../../data/external/spotify.csv"
+        df = pd.read_csv(path_to_spotify, index_col=0)
+        df.dropna(inplace=True)
+        df.drop(columns=['track_id', 'track_name', 'album_name', 'artists'], inplace=True)
+        df['explicit'] = df['explicit'].apply(lambda x: 1 if x == True else 0)
+
+        with open("../../data/interim/spotify_v1/spotify_numerical_only.csv", 'w') as f:
+            df.to_csv(f)
 
     def scree_plot_spotify():
-        path_to_spotify = "../../data/interim/spotify_v1/spotify_v1.csv"
-        df = pd.read_csv(path_to_spotify)
+        path_to_spotify = "../../data/interim/spotify_v1/spotify_numerical_only.csv"
+        df = pd.read_csv(path_to_spotify, index_col=0)
         X = df.drop(columns=['track_genre']).values
 
         pca = PCA()
@@ -40,6 +51,7 @@ class PCAKNNTasks:
         plt.ylabel('Eigenvalues')
         plt.title('Scree plot on spotify data')
         plt.grid()
+        plt.yscale('log')
         plt.xticks(range(0, threshold, 1))
         plt.savefig(f"figures/spotify_scree_plot_{threshold}.png")
 
@@ -63,20 +75,25 @@ class PCAKNNTasks:
         return train, test, val
 
     def pca_knn_spotify():
-        path_to_spotify = "../../data/interim/spotify_v1/spotify_v1.csv"
-        df = pd.read_csv(path_to_spotify)
-        X = df.drop(columns=['track_genre']).values
+        # path_to_spotify = "../../data/interim/spotify_v1/spotify_numerical_only.csv"
+        # df = pd.read_csv(path_to_spotify, index_col=0)
+        # X = df.drop(columns=['track_genre']).values
 
-        n_comp = 10
-        pca = PCA(n_components=n_comp)
-        pca.fit(X)
-        X_pca = pca.transform(X)
-        print(f"PCA to {n_comp} components")
-        if pca.checkPCA():
-            print("PCA check: True")
+        # n_comp = 6
+        # pca = PCA(n_components=n_comp)
+        # pca.fit(X)
+        # X_pca = pca.transform(X)
+        # print(f"PCA to {n_comp} components")
+        # if pca.checkPCA():
+        #     print("PCA check: True")
 
-        X_pca = pd.DataFrame(X_pca)
-        X_pca['track_genre'] = df['track_genre'].values
+        # X_pca = pd.DataFrame(X_pca)
+        # X_pca['track_genre'] = df['track_genre'].values
+
+        # print(X_pca.head())
+
+        path_to_spotify = "../../data/interim/spotify_v1/spotify_reduced.csv"
+        X_pca = pd.read_csv(path_to_spotify, index_col=0)
 
         train, test, val = PCAKNNTasks.train_test_val_split(X_pca)
 
@@ -111,20 +128,20 @@ class PCAKNNTasks:
         
     def pca_knn_spotify_sklearn():
         
-        path_to_spotify = "../../data/interim/spotify_v1/spotify_v1.csv"
-        df = pd.read_csv(path_to_spotify)
+        path_to_spotify = "../../data/interim/spotify_v1/spotify_numerical_only.csv"
+        df = pd.read_csv(path_to_spotify, index_col=0)
         X = df.drop(columns=['track_genre']).values
 
-        # n_comp = 10
-        # pca = PCA(n_components=n_comp)
-        # pca.fit(X)
-        # X_pca = pca.transform(X)
-        # print(f"PCA to {n_comp} components")
-        # if pca.checkPCA():
-        #     print("PCA check: True")
+        n_comp = 6
+        pca = PCA(n_components=n_comp)
+        pca.fit(X)
+        X_pca = pca.transform(X)
+        print(f"PCA to {n_comp} components")
+        if pca.checkPCA():
+            print("PCA check: True")
 
-        # X_pca = pd.DataFrame(X_pca)
-        # X_pca['track_genre'] = df['track_genre'].values
+        X_pca = pd.DataFrame(X_pca)
+        X_pca['track_genre'] = df['track_genre'].values
 
         train, test, val = PCAKNNTasks.train_test_val_split(df)
 
@@ -158,3 +175,11 @@ class PCAKNNTasks:
         print(f"Time taken: {end_time - start_time}")
         print(f"Time taken with perf measures: ", time() - start_time)
         
+    def plot_times():
+        times = [113, 81]
+        labels = ['KNN', 'KNN with PCA']
+        plt.bar(labels, times)
+        plt.ylabel('Time taken in seconds')
+        plt.title('Time taken for KNN and KNN with PCA')
+        plt.savefig('figures/knn_pca_time.png')
+
