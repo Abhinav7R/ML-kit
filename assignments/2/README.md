@@ -680,7 +680,7 @@ Note: Assistancve from chat gpt was taken in doing the semantic analysis.
 
 1. Scree plot on spotify
     
-    ![image.png](figures/spotify_scree_plot_15.png)
+    ![image.png](figures/spotify_scree_plot_15_og.png)
     
     Number of dimensions which are important towards contributing to represent the data are 6 and hence we can reduce the dimensions to 6.
     
@@ -703,18 +703,18 @@ Note: Assistancve from chat gpt was taken in doing the semantic analysis.
     
     ```python
     K: 20, Distance Metric: manhattan
-    Accuracy: 0.18947368421052632
-    Precision: 0.17952695660672296
-    Recall: 0.19037714051575141
-    F1 score: 0.18479291746242632
-    Time taken: 81.38862729072571
+    Accuracy: 0.20054390736029476
+    Precision: 0.189982242268843
+    Recall: 0.20103414275990844
+    F1 score: 0.19535200404102673
+    Time taken: 104.67689394950867
     ```
     
     ![image.png](figures/knn_pca_time.png)
     
-    The performance has slightly reduced from roughly around 24% to 20% and the time taken is also reduced by 40 seconds roughly.
+    The performance has slightly reduced from roughly around 24% to 20% and the time taken is also slightly reduced by 10 seconds roughly.
     
-    Conclusion is that, with reduced data the time taken is also less and the performance is not affected much.
+    Conclusion is that, with reduced data the time taken is also less and the performance is not affected much. Time does not change much as the reduction in dimension is not significant enough for the numpy functions to speeden up to a large extent.
     
 
 ---

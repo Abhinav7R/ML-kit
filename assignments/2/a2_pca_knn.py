@@ -29,6 +29,10 @@ class PCAKNNTasks:
         df.drop(columns=['track_id', 'track_name', 'album_name', 'artists'], inplace=True)
         df['explicit'] = df['explicit'].apply(lambda x: 1 if x == True else 0)
 
+        for column in df.columns:
+            if column != 'track_genre':
+                df[column] = (df[column] - df[column].mean()) / df[column].std()
+   
         with open("../../data/interim/spotify_v1/spotify_numerical_only.csv", 'w') as f:
             df.to_csv(f)
 
@@ -51,9 +55,9 @@ class PCAKNNTasks:
         plt.ylabel('Eigenvalues')
         plt.title('Scree plot on spotify data')
         plt.grid()
-        plt.yscale('log')
+        # plt.yscale('log')
         plt.xticks(range(0, threshold, 1))
-        plt.savefig(f"figures/spotify_scree_plot_{threshold}.png")
+        plt.savefig(f"figures/spotify_scree_plot_{threshold}_og.png")
 
     def train_test_val_split(data, test_size=0.1, val_size=0.1):
     
@@ -75,25 +79,23 @@ class PCAKNNTasks:
         return train, test, val
 
     def pca_knn_spotify():
-        # path_to_spotify = "../../data/interim/spotify_v1/spotify_numerical_only.csv"
-        # df = pd.read_csv(path_to_spotify, index_col=0)
-        # X = df.drop(columns=['track_genre']).values
+        path_to_spotify = "../../data/interim/spotify_v1/spotify_numerical_only.csv"
+        df = pd.read_csv(path_to_spotify, index_col=0)
+        X = df.drop(columns=['track_genre']).values
 
-        # n_comp = 6
-        # pca = PCA(n_components=n_comp)
-        # pca.fit(X)
-        # X_pca = pca.transform(X)
-        # print(f"PCA to {n_comp} components")
-        # if pca.checkPCA():
-        #     print("PCA check: True")
+        n_comp = 9
+        pca = PCA(n_components=n_comp)
+        pca.fit(X)
+        X_pca = pca.transform(X)
+        print(f"PCA to {n_comp} components")
 
-        # X_pca = pd.DataFrame(X_pca)
-        # X_pca['track_genre'] = df['track_genre'].values
+        if pca.checkPCA():
+            print("PCA check: True")
 
-        # print(X_pca.head())
+        X_pca = pd.DataFrame(X_pca)
+        X_pca['track_genre'] = df['track_genre'].values
 
-        path_to_spotify = "../../data/interim/spotify_v1/spotify_reduced.csv"
-        X_pca = pd.read_csv(path_to_spotify, index_col=0)
+        print(X_pca.head())
 
         train, test, val = PCAKNNTasks.train_test_val_split(X_pca)
 
@@ -132,7 +134,7 @@ class PCAKNNTasks:
         df = pd.read_csv(path_to_spotify, index_col=0)
         X = df.drop(columns=['track_genre']).values
 
-        n_comp = 6
+        n_comp = 9
         pca = PCA(n_components=n_comp)
         pca.fit(X)
         X_pca = pca.transform(X)
@@ -176,7 +178,7 @@ class PCAKNNTasks:
         print(f"Time taken with perf measures: ", time() - start_time)
         
     def plot_times():
-        times = [113, 81]
+        times = [113, 104]
         labels = ['KNN', 'KNN with PCA']
         plt.bar(labels, times)
         plt.ylabel('Time taken in seconds')
