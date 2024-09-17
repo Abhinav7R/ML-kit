@@ -1,5 +1,6 @@
 """
 This script is to implement all tasks in assignment 2 question on kmeans.
+Task 3
 """
 
 import sys, os

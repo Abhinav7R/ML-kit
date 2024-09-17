@@ -116,4 +116,4 @@ class GMM:
         log_likelihood = np.sum(np.log(total_likelihood))
 
         return log_likelihood
-        
+  

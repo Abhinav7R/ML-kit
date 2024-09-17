@@ -57,7 +57,7 @@ class PCA:
             return False
         
         return True
-       
 
-       
-    
+    def get_eigenvalues(self):
+        return self.eigenvalues
+
