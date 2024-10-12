@@ -1,0 +1,1 @@
+This folder will contain all the figures for the assignment 3.

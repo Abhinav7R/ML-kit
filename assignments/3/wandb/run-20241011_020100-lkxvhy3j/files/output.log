@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_classification.py", line 91, in sweep_train
+    model = MLP(
+            ^^^^
+TypeError: MLP.__init__() got an unexpected keyword argument 'learning_rate'

@@ -1,0 +1,13 @@
+wandb_version: 1
+
+activation_function:
+  value: tanh
+l_r:
+  value: 0.0001
+neurons_per_layer:
+  value:
+  - 8
+no_of_epochs:
+  value: 400
+optimizer:
+  value: batch_gradient_descent

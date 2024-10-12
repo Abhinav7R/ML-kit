@@ -1,0 +1,18 @@
+{"time":"2024-10-11T02:17:26.172652+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T02:17:26.172679+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_021726-7emuitc4/logs/debug-core.log"}
+{"time":"2024-10-11T02:17:26.172955+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T02:17:26.178144+05:30","level":"INFO","msg":"created new stream","id":"7emuitc4"}
+{"time":"2024-10-11T02:17:26.178182+05:30","level":"INFO","msg":"stream: started","id":"7emuitc4"}
+{"time":"2024-10-11T02:17:26.178222+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"7emuitc4"}}
+{"time":"2024-10-11T02:17:26.178206+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"7emuitc4"}}
+{"time":"2024-10-11T02:17:26.178188+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"7emuitc4"}}
+{"time":"2024-10-11T02:17:26.57823+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T02:17:26.578651+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T02:17:29.107924+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T02:17:29.107951+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T02:17:31.017727+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T02:17:33.228918+05:30","level":"INFO","msg":"stream: closing","id":"7emuitc4"}
+{"time":"2024-10-11T02:17:33.22904+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"7emuitc4"}}
+{"time":"2024-10-11T02:17:33.229295+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"7emuitc4"}}
+{"time":"2024-10-11T02:17:33.22938+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"7emuitc4"}}
+{"time":"2024-10-11T02:17:33.229984+05:30","level":"INFO","msg":"stream: closed","id":"7emuitc4"}

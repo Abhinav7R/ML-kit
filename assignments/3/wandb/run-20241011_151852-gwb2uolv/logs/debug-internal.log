@@ -1,0 +1,18 @@
+{"time":"2024-10-11T15:18:52.217197+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T15:18:52.217226+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_151852-gwb2uolv/logs/debug-core.log"}
+{"time":"2024-10-11T15:18:52.218585+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T15:18:52.246094+05:30","level":"INFO","msg":"created new stream","id":"gwb2uolv"}
+{"time":"2024-10-11T15:18:52.246127+05:30","level":"INFO","msg":"stream: started","id":"gwb2uolv"}
+{"time":"2024-10-11T15:18:52.246131+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"gwb2uolv"}}
+{"time":"2024-10-11T15:18:52.246135+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"gwb2uolv"}}
+{"time":"2024-10-11T15:18:52.246148+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"gwb2uolv"}}
+{"time":"2024-10-11T15:18:52.618656+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T15:18:52.619207+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T15:18:53.694299+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T15:18:53.694325+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T15:18:54.819325+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T15:18:56.399834+05:30","level":"INFO","msg":"stream: closing","id":"gwb2uolv"}
+{"time":"2024-10-11T15:18:56.399861+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"gwb2uolv"}}
+{"time":"2024-10-11T15:18:56.399883+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"gwb2uolv"}}
+{"time":"2024-10-11T15:18:56.399899+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"gwb2uolv"}}
+{"time":"2024-10-11T15:18:56.400734+05:30","level":"INFO","msg":"stream: closed","id":"gwb2uolv"}

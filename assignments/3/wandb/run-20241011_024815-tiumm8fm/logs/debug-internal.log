@@ -1,0 +1,18 @@
+{"time":"2024-10-11T02:48:15.437281+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T02:48:15.43731+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_024815-tiumm8fm/logs/debug-core.log"}
+{"time":"2024-10-11T02:48:15.438543+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T02:48:15.443676+05:30","level":"INFO","msg":"created new stream","id":"tiumm8fm"}
+{"time":"2024-10-11T02:48:15.443784+05:30","level":"INFO","msg":"stream: started","id":"tiumm8fm"}
+{"time":"2024-10-11T02:48:15.443821+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"tiumm8fm"}}
+{"time":"2024-10-11T02:48:15.443795+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tiumm8fm"}}
+{"time":"2024-10-11T02:48:15.44382+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"tiumm8fm"}}
+{"time":"2024-10-11T02:48:15.891293+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T02:48:15.891748+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T02:48:16.774471+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T02:48:16.774502+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T02:48:18.929709+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T02:48:20.403343+05:30","level":"INFO","msg":"stream: closing","id":"tiumm8fm"}
+{"time":"2024-10-11T02:48:20.403381+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"tiumm8fm"}}
+{"time":"2024-10-11T02:48:20.403412+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"tiumm8fm"}}
+{"time":"2024-10-11T02:48:20.403403+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tiumm8fm"}}
+{"time":"2024-10-11T02:48:20.403638+05:30","level":"INFO","msg":"stream: closed","id":"tiumm8fm"}

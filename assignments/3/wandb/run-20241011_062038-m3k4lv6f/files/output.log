@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_classification_multilabel.py", line 114, in sweep_train
+    model.fit(X_train, y_train, val=True, X_val=X_val, y_val=y_val, early_stopping=True, patience=5, wandb_log=True)
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification_multilabel.py", line 206, in fit
+    accuracy_val = self.accuracy(y_val, self.forward_pass(X_val))
+                   ^^^^^^^^^^^^^
+AttributeError: 'MLP' object has no attribute 'accuracy'

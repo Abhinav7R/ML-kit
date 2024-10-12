@@ -1,0 +1,18 @@
+{"time":"2024-10-11T03:34:25.447942+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T03:34:25.447968+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_033425-rafx2csk/logs/debug-core.log"}
+{"time":"2024-10-11T03:34:25.449181+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T03:34:25.454229+05:30","level":"INFO","msg":"created new stream","id":"rafx2csk"}
+{"time":"2024-10-11T03:34:25.45428+05:30","level":"INFO","msg":"stream: started","id":"rafx2csk"}
+{"time":"2024-10-11T03:34:25.454312+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"rafx2csk"}}
+{"time":"2024-10-11T03:34:25.454293+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"rafx2csk"}}
+{"time":"2024-10-11T03:34:25.4543+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"rafx2csk"}}
+{"time":"2024-10-11T03:34:25.851851+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T03:34:25.852384+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T03:34:29.618915+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T03:34:29.618955+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T03:34:31.55453+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T03:34:33.134906+05:30","level":"INFO","msg":"stream: closing","id":"rafx2csk"}
+{"time":"2024-10-11T03:34:33.134947+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"rafx2csk"}}
+{"time":"2024-10-11T03:34:33.134978+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"rafx2csk"}}
+{"time":"2024-10-11T03:34:33.134969+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"rafx2csk"}}
+{"time":"2024-10-11T03:34:33.13564+05:30","level":"INFO","msg":"stream: closed","id":"rafx2csk"}

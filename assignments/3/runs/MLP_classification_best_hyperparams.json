@@ -1,0 +1,10 @@
+{
+    "optimizer": "mini_batch_gradient_descent",
+    "no_of_epochs": 100,
+    "neurons_per_layer": [
+        16,
+        10
+    ],
+    "activation_function": "relu",
+    "l_r": 0.001
+}

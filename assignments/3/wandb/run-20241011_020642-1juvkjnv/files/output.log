@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_classification.py", line 91, in sweep_train
+    model = MLP(
+            ^^^^
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification.py", line 36, in __init__
+    raise ValueError("Length of neurons per layer must match the number of hidden layers")
+ValueError: Length of neurons per layer must match the number of hidden layers

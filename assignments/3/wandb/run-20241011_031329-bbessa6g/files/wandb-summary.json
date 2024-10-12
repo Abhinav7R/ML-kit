@@ -1,0 +1,1 @@
+{"val_f1_score":0,"_wandb":{"runtime":0},"_timestamp":1.7285966095981572e+09,"val_loss":NaN,"val_recall":0,"epoch":4,"_runtime":0.525414,"_step":5,"train_recall":0.16666666666666666,"train_precision":0.00045599635202918376,"val_precision":0,"val_accuracy":0,"train_accuracy":0.0027359781121751026,"train_f1_score":0.0009095043201455207,"train_loss":NaN}

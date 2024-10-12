@@ -1,0 +1,6 @@
+/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification.py:222: RuntimeWarning: divide by zero encountered in log
+  cost = -np.mean(y_true * np.log(y_pred))
+/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification.py:222: RuntimeWarning: invalid value encountered in multiply
+  cost = -np.mean(y_true * np.log(y_pred))
+/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification.py:100: RuntimeWarning: invalid value encountered in divide
+  return exps / np.sum(exps, axis=1, keepdims=True)

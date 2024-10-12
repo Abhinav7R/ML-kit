@@ -1,0 +1,18 @@
+{"time":"2024-10-11T03:24:48.731874+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T03:24:48.731902+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_032448-ih653id6/logs/debug-core.log"}
+{"time":"2024-10-11T03:24:48.733058+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T03:24:48.739076+05:30","level":"INFO","msg":"created new stream","id":"ih653id6"}
+{"time":"2024-10-11T03:24:48.739116+05:30","level":"INFO","msg":"stream: started","id":"ih653id6"}
+{"time":"2024-10-11T03:24:48.739137+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"ih653id6"}}
+{"time":"2024-10-11T03:24:48.739118+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"ih653id6"}}
+{"time":"2024-10-11T03:24:48.739141+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"ih653id6"}}
+{"time":"2024-10-11T03:24:49.140563+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T03:24:49.141043+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T03:24:49.611496+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T03:24:49.611528+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T03:24:52.21253+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T03:24:53.578555+05:30","level":"INFO","msg":"stream: closing","id":"ih653id6"}
+{"time":"2024-10-11T03:24:53.578583+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"ih653id6"}}
+{"time":"2024-10-11T03:24:53.578613+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"ih653id6"}}
+{"time":"2024-10-11T03:24:53.578603+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"ih653id6"}}
+{"time":"2024-10-11T03:24:53.578757+05:30","level":"INFO","msg":"stream: closed","id":"ih653id6"}

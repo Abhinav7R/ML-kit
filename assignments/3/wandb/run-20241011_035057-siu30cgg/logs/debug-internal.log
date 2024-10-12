@@ -1,0 +1,18 @@
+{"time":"2024-10-11T03:50:57.68607+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T03:50:57.686102+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_035057-siu30cgg/logs/debug-core.log"}
+{"time":"2024-10-11T03:50:57.686697+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T03:50:57.691243+05:30","level":"INFO","msg":"created new stream","id":"siu30cgg"}
+{"time":"2024-10-11T03:50:57.691282+05:30","level":"INFO","msg":"stream: started","id":"siu30cgg"}
+{"time":"2024-10-11T03:50:57.691298+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"siu30cgg"}}
+{"time":"2024-10-11T03:50:57.691313+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"siu30cgg"}}
+{"time":"2024-10-11T03:50:57.691336+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"siu30cgg"}}
+{"time":"2024-10-11T03:50:58.076187+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T03:50:58.076675+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T03:50:59.145761+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T03:50:59.145968+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T03:51:01.130325+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T03:51:02.662683+05:30","level":"INFO","msg":"stream: closing","id":"siu30cgg"}
+{"time":"2024-10-11T03:51:02.662703+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"siu30cgg"}}
+{"time":"2024-10-11T03:51:02.662723+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"siu30cgg"}}
+{"time":"2024-10-11T03:51:02.66272+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"siu30cgg"}}
+{"time":"2024-10-11T03:51:02.663232+05:30","level":"INFO","msg":"stream: closed","id":"siu30cgg"}

@@ -1,0 +1,32 @@
+{
+  "os":  "macOS-14.5-arm64-arm-64bit",
+  "python":  "3.11.7",
+  "startedAt":  "2024-10-11T21:24:07.499970Z",
+  "program":  "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_regression.py",
+  "codePath":  "assignments/3/a3_mlp_regression.py",
+  "git":  {
+    "remote":  "git@github.com:smai-monsoon-24/smai-m24-assignments-Abhinav7R.git",
+    "commit":  "43a0a3f4c335f8b8674861fad90c4d69653ee663"
+  },
+  "email":  "abhinavraundhal7704@gmail.com",
+  "root":  "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3",
+  "host":  "Abhinavs-MacBook-Air-2.local",
+  "username":  "abhinavraundhal",
+  "executable":  "/opt/homebrew/opt/python@3.11/bin/python3.11",
+  "codePathLocal":  "a3_mlp_regression.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "155625472000"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  }
+}

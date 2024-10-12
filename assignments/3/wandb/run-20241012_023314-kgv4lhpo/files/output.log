@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_regression.py", line 73, in sweep_train
+    model = MLP(
+            ^^^^
+TypeError: MLP.__init__() got an unexpected keyword argument 'output_layer_size'

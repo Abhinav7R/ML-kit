@@ -1,0 +1,18 @@
+{"time":"2024-10-11T06:35:36.692337+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T06:35:36.69236+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_063536-fozdrtdr/logs/debug-core.log"}
+{"time":"2024-10-11T06:35:36.693576+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T06:35:36.698884+05:30","level":"INFO","msg":"created new stream","id":"fozdrtdr"}
+{"time":"2024-10-11T06:35:36.698914+05:30","level":"INFO","msg":"stream: started","id":"fozdrtdr"}
+{"time":"2024-10-11T06:35:36.698941+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"fozdrtdr"}}
+{"time":"2024-10-11T06:35:36.698921+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fozdrtdr"}}
+{"time":"2024-10-11T06:35:36.699013+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"fozdrtdr"}}
+{"time":"2024-10-11T06:35:37.218647+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T06:35:37.219084+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T06:35:40.709561+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T06:35:40.709601+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T06:35:41.976259+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T06:35:43.477241+05:30","level":"INFO","msg":"stream: closing","id":"fozdrtdr"}
+{"time":"2024-10-11T06:35:43.477425+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"fozdrtdr"}}
+{"time":"2024-10-11T06:35:43.477964+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fozdrtdr"}}
+{"time":"2024-10-11T06:35:43.478127+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"fozdrtdr"}}
+{"time":"2024-10-11T06:35:43.478795+05:30","level":"INFO","msg":"stream: closed","id":"fozdrtdr"}

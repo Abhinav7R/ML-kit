@@ -1,0 +1,8 @@
+Epoch: 1/100, Error: 0.20639134459055855
+Validation Error: 0.19998028570998574
+Traceback (most recent call last):
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_classification.py", line 102, in sweep_train
+    model.fit(X, y, val=True, X_val=X_val, y_val=y_val, early_stopping=True, patience=5, wandb_log=True)
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification.py", line 207, in fit
+    self.wandb_log(epoch, error, error_val, accuracy_train, accuracy_val)
+TypeError: MLP.wandb_log() takes 5 positional arguments but 6 were given

@@ -1,0 +1,18 @@
+{"time":"2024-10-11T03:30:55.423068+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-11T03:30:55.423096+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241011_033055-bkjo6aq1/logs/debug-core.log"}
+{"time":"2024-10-11T03:30:55.423427+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-11T03:30:55.429614+05:30","level":"INFO","msg":"created new stream","id":"bkjo6aq1"}
+{"time":"2024-10-11T03:30:55.429659+05:30","level":"INFO","msg":"stream: started","id":"bkjo6aq1"}
+{"time":"2024-10-11T03:30:55.429663+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"bkjo6aq1"}}
+{"time":"2024-10-11T03:30:55.429759+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"bkjo6aq1"}}
+{"time":"2024-10-11T03:30:55.429693+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"bkjo6aq1"}}
+{"time":"2024-10-11T03:30:56.754584+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-11T03:30:56.755047+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-11T03:30:56.875083+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-11T03:30:56.875121+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-11T03:30:59.802399+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-11T03:31:01.310829+05:30","level":"INFO","msg":"stream: closing","id":"bkjo6aq1"}
+{"time":"2024-10-11T03:31:01.31099+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"bkjo6aq1"}}
+{"time":"2024-10-11T03:31:01.31103+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"bkjo6aq1"}}
+{"time":"2024-10-11T03:31:01.311013+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"bkjo6aq1"}}
+{"time":"2024-10-11T03:31:01.311281+05:30","level":"INFO","msg":"stream: closed","id":"bkjo6aq1"}

@@ -1,0 +1,11 @@
+{
+    "l_r": 0.001,
+    "optimizer": "sgd",
+    "no_of_epochs": 400,
+    "neurons_per_layer": [
+        16,
+        10,
+        5
+    ],
+    "activation_function": "tanh"
+}

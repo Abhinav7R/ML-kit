@@ -1,0 +1,11 @@
+{
+    "activation_function": "sigmoid",
+    "l_r": 0.01,
+    "optimizer": "sgd",
+    "no_of_epochs": 100,
+    "neurons_per_layer": [
+        16,
+        10,
+        5
+    ]
+}

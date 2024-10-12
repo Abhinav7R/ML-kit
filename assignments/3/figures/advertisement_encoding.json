@@ -1,0 +1,10 @@
+{
+    "electronics": 0,
+    "clothing": 1,
+    "sports": 2,
+    "furniture": 3,
+    "beauty": 4,
+    "food": 5,
+    "home": 6,
+    "books": 7
+}

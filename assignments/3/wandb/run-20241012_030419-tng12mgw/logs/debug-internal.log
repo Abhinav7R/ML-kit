@@ -1,0 +1,18 @@
+{"time":"2024-10-12T03:04:19.596066+05:30","level":"INFO","msg":"using version","core version":"0.18.3"}
+{"time":"2024-10-12T03:04:19.59614+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/wandb/run-20241012_030419-tng12mgw/logs/debug-core.log"}
+{"time":"2024-10-12T03:04:19.596913+05:30","level":"ERROR","msg":"dialing: google: could not find default credentials. See https://cloud.google.com/docs/authentication/external/set-up-adc for more information"}
+{"time":"2024-10-12T03:04:19.604213+05:30","level":"INFO","msg":"created new stream","id":"tng12mgw"}
+{"time":"2024-10-12T03:04:19.604253+05:30","level":"INFO","msg":"stream: started","id":"tng12mgw"}
+{"time":"2024-10-12T03:04:19.604292+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"tng12mgw"}}
+{"time":"2024-10-12T03:04:19.604337+05:30","level":"INFO","msg":"sender: started","stream_id":{"value":"tng12mgw"}}
+{"time":"2024-10-12T03:04:19.604261+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"tng12mgw"}}
+{"time":"2024-10-12T03:04:20.092231+05:30","level":"INFO","msg":"wandb-core","!BADKEY":null}
+{"time":"2024-10-12T03:04:20.092726+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-12T03:04:21.11001+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-12T03:04:21.110036+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-12T03:04:23.350684+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-12T03:04:24.817723+05:30","level":"INFO","msg":"stream: closing","id":"tng12mgw"}
+{"time":"2024-10-12T03:04:24.817754+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"tng12mgw"}}
+{"time":"2024-10-12T03:04:24.817793+05:30","level":"INFO","msg":"sender: closed","stream_id":{"value":"tng12mgw"}}
+{"time":"2024-10-12T03:04:24.817785+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"tng12mgw"}}
+{"time":"2024-10-12T03:04:24.818014+05:30","level":"INFO","msg":"stream: closed","id":"tng12mgw"}

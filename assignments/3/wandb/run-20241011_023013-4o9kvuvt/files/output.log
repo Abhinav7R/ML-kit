@@ -1,0 +1,14 @@
+Epoch: 1/100, Error: 0.18097586189510292
+Validation Error: 0.17929717678500615
+Traceback (most recent call last):
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_classification.py", line 137, in <module>
+    testing_mlp()
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/3/a3_mlp_classification.py", line 55, in testing_mlp
+    mlp.fit(X, y, val=True, X_val=X_val, y_val=y_val, early_stopping=True, patience=5, wandb_log=False)
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification.py", line 205, in fit
+    accuracy_val = self.accuracy(y_val, self.forward_pass(X_val))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/models/MLP/mlp_classification.py", line 271, in accuracy
+    accuracy = np.sum(y_true == y_pred) / len(y_true)
+                      ^^^^^^^^^^^^^^^^
+ValueError: operands could not be broadcast together with shapes (229,6) (229,)
