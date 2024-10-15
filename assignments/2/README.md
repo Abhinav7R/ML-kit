@@ -316,7 +316,7 @@ Comparing the plots obtained by the PCA implemented from scratch and those from 
     
     ![image.png](figures/scree_plot_10.png)
     
-    From the above graphs it is clear that the optimal number of dimensions is 4 as components after 4 do not contribute significantly and hence can be dropped and the dataset is now reduced to 4 dimensions.
+    From the above graphs it is clear that the optimal number of dimensions is 6 as components after 6 do not contribute significantly and hence can be dropped and the dataset is now reduced to 6 dimensions.
     
     Elbow method on reduced dataset:
     
@@ -342,7 +342,7 @@ Comparing the plots obtained by the PCA implemented from scratch and those from 
     ```
     
 
-1. Optimal number of clusters for the reduced dataset (dimensions = 4) using AIC or BIC
+1. Optimal number of clusters for the reduced dataset (dimensions = 6) using AIC or BIC
     
     ![image.png](figures/pca_gmm_aic_bic.png)
     
