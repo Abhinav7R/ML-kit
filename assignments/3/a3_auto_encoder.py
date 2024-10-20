@@ -6,7 +6,7 @@ AutoEncoders
 import sys, os
 sys.path.append(os.path.abspath(os.path.join('..','..')))
 
-from models.AutoEncoders.auto_encoders import AutoEncoder
+from models.AutoEncoders.mlp_auto_encoder import MLPAutoEncoder as AutoEncoder
 from models.knn.knn import OptimisedKNN
 from performance_measures.performance_measures import Performance_Measures
 from models.MLP.mlp import MLP

@@ -6,7 +6,7 @@ import numpy as np
 
 from models.MLP.mlp import MLP
 
-class AutoEncoder:
+class MLPAutoEncoder:
     def __init__(self,
                 l_r = 0.001,
                 activation_function='sigmoid',

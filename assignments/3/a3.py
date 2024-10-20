@@ -1,5 +1,5 @@
 """
-This script is to implement all tasks in assignment 3.
+This script is to implement all tasks in assignment 3 regarding mlp combined for regression, multilabel and single label classification.
 """
 
 import sys, os
