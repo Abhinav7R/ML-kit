@@ -1,0 +1,17 @@
+{"time":"2024-11-02T12:33:11.774816+05:30","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-02T12:33:11.77487+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/4/wandb/run-20241102_123311-81bu0jbx/logs/debug-core.log"}
+{"time":"2024-11-02T12:33:11.8906+05:30","level":"INFO","msg":"created new stream","id":"81bu0jbx"}
+{"time":"2024-11-02T12:33:11.890639+05:30","level":"INFO","msg":"stream: started","id":"81bu0jbx"}
+{"time":"2024-11-02T12:33:11.890669+05:30","level":"INFO","msg":"sender: started","stream_id":"81bu0jbx"}
+{"time":"2024-11-02T12:33:11.890659+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"81bu0jbx"}}
+{"time":"2024-11-02T12:33:11.890688+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"81bu0jbx"}}
+{"time":"2024-11-02T12:33:12.302465+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-02T12:37:14.238985+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-02T12:37:14.240917+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-02T12:37:15.244278+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.383585333},{"desc":"uploading wandb-summary.json","runtime_seconds":0.338748,"progress":"423B/423B"},{"desc":"uploading config.yaml","runtime_seconds":0.032540083,"progress":"684B/684B"},{"desc":"uploading output.log","runtime_seconds":0.032510084}],"total_operations":4}}
+{"time":"2024-11-02T12:37:15.863067+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-02T12:37:17.260633+05:30","level":"INFO","msg":"stream: closing","id":"81bu0jbx"}
+{"time":"2024-11-02T12:37:17.260652+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"81bu0jbx"}}
+{"time":"2024-11-02T12:37:17.260669+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"81bu0jbx"}}
+{"time":"2024-11-02T12:37:17.26068+05:30","level":"INFO","msg":"sender: closed","stream_id":"81bu0jbx"}
+{"time":"2024-11-02T12:37:17.26075+05:30","level":"INFO","msg":"stream: closed","id":"81bu0jbx"}

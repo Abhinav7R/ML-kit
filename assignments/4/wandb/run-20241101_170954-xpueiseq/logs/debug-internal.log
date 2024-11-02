@@ -1,0 +1,17 @@
+{"time":"2024-11-01T17:09:54.549189+05:30","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-01T17:09:54.54923+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/4/wandb/run-20241101_170954-xpueiseq/logs/debug-core.log"}
+{"time":"2024-11-01T17:09:54.65787+05:30","level":"INFO","msg":"created new stream","id":"xpueiseq"}
+{"time":"2024-11-01T17:09:54.65791+05:30","level":"INFO","msg":"stream: started","id":"xpueiseq"}
+{"time":"2024-11-01T17:09:54.657919+05:30","level":"INFO","msg":"sender: started","stream_id":"xpueiseq"}
+{"time":"2024-11-01T17:09:54.657934+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"xpueiseq"}}
+{"time":"2024-11-01T17:09:54.657915+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"xpueiseq"}}
+{"time":"2024-11-01T17:09:55.064873+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-01T17:12:02.833132+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-01T17:12:02.833692+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-01T17:12:03.839108+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"saving job artifact","runtime_seconds":0.35302025},{"desc":"uploading wandb-summary.json","runtime_seconds":0.329380333,"progress":"217B/217B"}],"total_operations":2}}
+{"time":"2024-11-01T17:12:04.84757+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-01T17:12:06.270631+05:30","level":"INFO","msg":"stream: closing","id":"xpueiseq"}
+{"time":"2024-11-01T17:12:06.270668+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"xpueiseq"}}
+{"time":"2024-11-01T17:12:06.270718+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"xpueiseq"}}
+{"time":"2024-11-01T17:12:06.270754+05:30","level":"INFO","msg":"sender: closed","stream_id":"xpueiseq"}
+{"time":"2024-11-01T17:12:06.27102+05:30","level":"INFO","msg":"stream: closed","id":"xpueiseq"}

@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/var/folders/fp/g6h334cs71j2vl505scsq0dh0000gn/T/ipykernel_38806/1253071884.py", line 5, in sweep_train
+    model, val_loader, test_loader, train_loader = train_driver(
+                                                   ^^^^^^^^^^^^^
+  File "/var/folders/fp/g6h334cs71j2vl505scsq0dh0000gn/T/ipykernel_38806/128019942.py", line 15, in train_driver
+    train(model, train_loader, val_loader, optimizer, num_epochs=num_epochs,
+  File "/var/folders/fp/g6h334cs71j2vl505scsq0dh0000gn/T/ipykernel_38806/1504163643.py", line 20, in train
+    outputs = model(inputs)
+              ^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/smai_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/smai_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/folders/fp/g6h334cs71j2vl505scsq0dh0000gn/T/ipykernel_38806/4200785965.py", line 42, in forward
+    x = F.relu(self.fc1(x))
+               ^^^^^^^^^^^
+  File "/opt/anaconda3/envs/smai_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/smai_env/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/envs/smai_env/lib/python3.12/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (32x2048 and 512x128)

@@ -1,0 +1,17 @@
+{"time":"2024-11-02T13:45:24.1489+05:30","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-11-02T13:45:24.148947+05:30","level":"INFO","msg":"created symlink","path":"/Users/abhinavraundhal/Documents/sem_5/SMAI/Assignments/All_Assignments/smai-m24-assignments-Abhinav7R/assignments/4/wandb/run-20241102_134524-fb8royre/logs/debug-core.log"}
+{"time":"2024-11-02T13:45:24.268083+05:30","level":"INFO","msg":"created new stream","id":"fb8royre"}
+{"time":"2024-11-02T13:45:24.26811+05:30","level":"INFO","msg":"stream: started","id":"fb8royre"}
+{"time":"2024-11-02T13:45:24.268141+05:30","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"fb8royre"}}
+{"time":"2024-11-02T13:45:24.268301+05:30","level":"INFO","msg":"sender: started","stream_id":"fb8royre"}
+{"time":"2024-11-02T13:45:24.268338+05:30","level":"INFO","msg":"handler: started","stream_id":{"value":"fb8royre"}}
+{"time":"2024-11-02T13:45:25.165866+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-11-02T13:49:10.216553+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-11-02T13:49:10.21741+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-11-02T13:49:11.221631+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history","runtime_seconds":0.172495},{"desc":"updating run config","runtime_seconds":0.1698275}],"total_operations":2}}
+{"time":"2024-11-02T13:49:12.756998+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-11-02T13:49:14.330002+05:30","level":"INFO","msg":"stream: closing","id":"fb8royre"}
+{"time":"2024-11-02T13:49:14.330038+05:30","level":"INFO","msg":"handler: closed","stream_id":{"value":"fb8royre"}}
+{"time":"2024-11-02T13:49:14.330066+05:30","level":"INFO","msg":"sender: closed","stream_id":"fb8royre"}
+{"time":"2024-11-02T13:49:14.330063+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"fb8royre"}}
+{"time":"2024-11-02T13:49:14.330567+05:30","level":"INFO","msg":"stream: closed","id":"fb8royre"}
