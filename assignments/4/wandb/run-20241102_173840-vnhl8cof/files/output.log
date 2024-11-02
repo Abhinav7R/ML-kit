@@ -1,0 +1,4 @@
+[34m[1mwandb[0m: Ctrl + C detected. Stopping sweep.
+Create sweep with ID: edh0epfy
+Sweep URL: https://wandb.ai/abhinav7/SMAI_ASG_4_CNN_AutoEncoder/sweeps/edh0epfy
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.login() after wandb.init() has no effect.
