@@ -46,10 +46,8 @@ class MLPAutoEncoder:
         if val and X_val is None:
             raise ValueError("Validation data is not provided")
         if val:            
-            self.regressor.fit(X, X, val=val, X_val=X_val, y_val=X_val, early_stopping=early_stopping, patience=patience, wandb_log=wandb_log)
-        else:
-            losses = self.regressor.fit(X, X, val=val, X_val=X_val, y_val=X_val, early_stopping=early_stopping, patience=patience, wandb_log=wandb_log)
-            return losses
+            train_losses, val_losses = self.regressor.fit(X, X, val=val, X_val=X_val, y_val=X_val, early_stopping=early_stopping, patience=patience, wandb_log=wandb_log)
+            return train_losses, val_losses
 
     def get_latent(self, X):
         activations, _ = self.regressor.forward_pass(X)
@@ -59,3 +57,7 @@ class MLPAutoEncoder:
     def reconstruction_loss(self, X):
         y_pred = self.regressor.predict(X)
         return np.mean((X - y_pred) ** 2)
+    
+    def get_reconstructed(self, X_test):
+        y = self.regressor.predict(X_test)
+        return y

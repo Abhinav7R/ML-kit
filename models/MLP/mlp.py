@@ -166,7 +166,8 @@ class MLP:
         self.y = y
 
         if val:
-            losses = []
+            val_losses = []
+            train_losses = []
             if X_val is None or y_val is None:
                 raise ValueError("Validation data must be provided")
             if early_stopping:
@@ -193,9 +194,10 @@ class MLP:
             error = self.cost_function(X, y)
             print(f"Epoch: {epoch+1}/{self.no_of_epochs}, Error: {error}")
             if val:
+                train_losses.append(error)
                 error_val = self.cost_function(X_val, y_val)
                 # print(f"Validation Error: {error_val}")
-                losses.append(error_val)
+                val_losses.append(error_val)
                 if early_stopping:
                     if epoch == 0:
                         best_error = error_val
@@ -229,7 +231,7 @@ class MLP:
                     'val_accuracy': accuracy_val
                     })
         if val:
-            return losses
+            return train_losses, val_losses
             
     def predict(self, X):
         self.forward_pass(X)

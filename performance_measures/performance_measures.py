@@ -96,3 +96,11 @@ class Performance_Measures:
     
     def variance(self, y_true, y_pred):
         return np.var(y_true - y_pred)
+    
+    def confusion_matrix(self, y_true, y_pred):
+        classes = np.unique(y_true)
+        cm = np.zeros((len(classes), len(classes)))
+        for i in range(len(classes)):
+            for j in range(len(classes)):
+                cm[i, j] = np.sum((y_true == classes[i]) & (y_pred == classes[j]))
+        return cm
